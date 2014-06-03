@@ -3,6 +3,12 @@
 // Compass stuff
 @import "compass/css3";
 
+// Susy
+@import "susy";
+
+// Helpers
+@import "helpers/helpers";
+
 // Import vendor's files
 @import "vendor/normalize";
 
