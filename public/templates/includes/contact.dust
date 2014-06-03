@@ -1,0 +1,13 @@
+<article class="get-in-touch">
+  <div class="wrap">
+    <h1 class="contact-title">Contato</h1>
+
+    <p>Se você tiver alguma dúvida ou sugestão, entre em contato:</p>
+
+    <form>
+      <input type="text" id="name" name="name" placeholder="Nome">
+      <input type="text" id="email" name="email" placeholder="E-mail">
+      <textarea name="message" id="message" placeholder="Digite sua mensagem"></textarea>
+    </form>
+  </div>
+</article>
