@@ -9,5 +9,11 @@
       </div>
     </section>
 
+    <div class="other-infos">
+      <ul>
+        <li><a href="#">Termos de uso</a></li>
+        <li><a href="#">Política de privacidade</a></li>
+      </ul>
+    </div>
   </div>
 </footer>
