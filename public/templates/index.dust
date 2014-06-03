@@ -27,4 +27,6 @@
   {>"includes/who-can" /}
 
   {>"includes/responsibility" /}
+
+  {>"includes/the-project" /}
 {/yield}
