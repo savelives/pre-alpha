@@ -5,7 +5,7 @@
       <h2>Apoio</h2>
 
       <div class="supporting-awlka">
-        <img src="./img/awlka.png" alt="Awlka">
+        <a href="#"><img src="./img/awlka.png" alt="Awlka"></a>
       </div>
     </section>
 
