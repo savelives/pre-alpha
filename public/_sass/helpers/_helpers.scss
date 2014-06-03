@@ -1,0 +1,19 @@
+/*------------------------------------*\
+  Helpers
+\*------------------------------------*/
+.cf {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+.inline-block {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
