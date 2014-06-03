@@ -29,4 +29,7 @@
   {>"includes/responsibility" /}
 
   {>"includes/the-project" /}
+
+  {>"includes/contact" /}
+
 {/yield}
