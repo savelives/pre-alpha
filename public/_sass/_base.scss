@@ -1,11 +1,29 @@
+// Susy configuration
+
+$total-columns: 12;
+$column-width: 4em;
+$gutter-width: 1em;
+$container-width: 60em;
+
+$susy: (
+  columns: $total-columns,
+  gutters: $gutter-width / $column-width,
+  column-width: $column-width,
+
+  container: $container-width,
+);
+
 * {
   @include box-sizing(border-box);
 }
 
 body {
   font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  font-size: 16px;
 }
 
 .wrap {
   @include container;
+  margin: auto;
 }
