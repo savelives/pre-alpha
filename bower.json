@@ -1,0 +1,30 @@
+{
+  "name": "pre-alpha",
+  "main": "index.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/savelives/pre-alpha",
+  "authors": [
+    "Lucas Churchill <lucas@agtlucas.com>"
+  ],
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "dustjs-linkedin-helpers": "^1.1.1",
+    "dustjs-linkedin": "^2.0.3",
+    "normalize-css": "~3.0.1",
+    "requirejs": "^2.1.11"
+  }
+}
