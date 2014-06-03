@@ -1,1 +1,19 @@
-requirejs.config({paths:{}}),require([],function(){var e={initialize:function(){}};e.initialize()}),define("app",function(){});
+'use strict';
+
+
+requirejs.config({
+    paths: {}
+});
+
+
+require([/* Dependencies */], function () {
+
+    var app = {
+        initialize: function () {
+            // Your code here
+        }
+    };
+
+    app.initialize();
+
+});
