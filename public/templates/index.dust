@@ -25,4 +25,6 @@
   </article>
 
   {>"includes/who-can" /}
+
+  {>"includes/responsibility" /}
 {/yield}
