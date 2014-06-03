@@ -3,5 +3,25 @@
 {<title}Home{/title}
 
 {<yield}
-    <h1>{@pre type="content" key="greeting"/}</h1>
+    <article class="home-part">
+      <div class="wrap">
+        <span class="initiative-title">
+          Quem tem iniciativa de doar sangue se transforma em um herói, pois salva vidas.
+        </span>
+
+        <p>Se você tem a iniciativa de ser um doador de sangue ou de contribuir nesta causa, <em>cadastre-se</em> para saber mais.</p>
+
+        <section class="register-now">
+          <form>
+            <input type="text" id="name" name="name" placeholder="Nome">
+            <input type="text" id="email" name="email" placeholder="E-mail">
+            <button class="btn btn-register-now" type="button">Cadastre-se</button>
+          </form>
+        </section>
+
+        <small class="disclaimer-info">O cadastro é gratuito e garante a sua privacidade. Você receberá informações sobre as etapas do projeto SaveLives.</small>
+      </div>
+    </article>
+
+
 {/yield}
