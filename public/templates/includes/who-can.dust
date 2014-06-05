@@ -1,7 +1,5 @@
 <article class="who-can">
   <div class="wrap">
-    <button class="btn btn-can" type="button">Quem pode doar?</button>
-    <button class="btn btn-cant" type="button">Quem não pode doar?</button>
 
     <section class="can-donate">
       <ul class="allowed">
