@@ -1,6 +1,8 @@
 <article class="who-can">
   <div class="wrap">
 
+  <!-- TODO: Tabs system -->
+
     <section class="can-donate">
       <ul class="allowed">
         <li>
