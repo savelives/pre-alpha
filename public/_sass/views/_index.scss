@@ -20,6 +20,15 @@
   width: 600px;
 }
 
+.big-title {
+  display: block;
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 /*------------------------------------*\
   Home part
 \*------------------------------------*/
@@ -37,13 +46,7 @@
 }
 
 .initiative-title {
-  display: block;
-  font-size: 40px;
   color: $agreen;
-  line-height: 60px;
-  font-weight: 400;
-  text-transform: uppercase;
-  text-align: center;
   margin-bottom: 50px;
 }
 
@@ -71,6 +74,23 @@
 \*------------------------------------*/
 .responsibility {
   background: $aagreen;
+  padding: 50px 0;
+  p {
+    color: $awhite;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+  }
+}
+
+.responsibility-title {
+  color: $text-blue;
+  margin-bottom: 40px;
+}
+
+.hosnety {
+  font-weight: 400 !important;
+  text-align: center;
 }
 
 /*------------------------------------*\
