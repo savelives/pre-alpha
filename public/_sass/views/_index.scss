@@ -94,5 +94,52 @@
 }
 
 /*------------------------------------*\
+  The Project
+\*------------------------------------*/
+.the-project {
+  padding: 40px 0;
+  p {
+    color: $text-gb;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+  }
+}
+
+.the-project-title {
+  color: $aablue;
+  margin-bottom: 30px;
+}
+
+.btn-project {
+  display: block;
+  margin: 30px auto;
+}
+/*------------------------------------*\
   Get in Touch
 \*------------------------------------*/
+.get-in-touch {
+  padding: 40px 0;
+  p {
+    font-size: 24px;
+    font-weight: 300;
+    color: $awhite;
+    text-align: center;
+  }
+}
+
+.contact-title {
+  color: $agreen;
+  margin-bottom: 30px;
+}
+
+.message-field {
+  display: block;
+  width: 100%;
+  height: 250px;
+  margin: 20px 0 0 0;
+}
+
+.btn-send-message {
+  float: right;
+}
