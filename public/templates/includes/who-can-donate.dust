@@ -1,0 +1,46 @@
+<section class="can-donate">
+  <ul class="allowed">
+    <li>
+      <a href="#">
+        <div></div>
+        Alimentação
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <div></div>
+        Documentação
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <div></div>
+        Idade
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <div></div>
+        Peso
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <div></div>
+        Saúde
+      </a>
+    </li>
+  </ul>
+
+  <div class="info-women-men">
+    <div class="info-women">
+      <h4>Mulheres</h4>
+      <small>Podem doar sangue num intervalo mínimo de 3 meses, não ultrapassando 3 doações por ano.</small>
+    </div>
+
+    <div class="info-men">
+      <h4>Homens</h4>
+      <small>Podem doar sangue num intervalo mínimo de 2 meses, não ultrapassando 4 doações por ano.</small>
+    </div>
+  </div>
+</section>
