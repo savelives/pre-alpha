@@ -6,6 +6,20 @@
   background: $ablue;
 }
 
+.name-field,
+.email-field {
+  height: 50px;
+}
+
+.name-field {
+  width: 340px;
+  margin-right: 20px;
+}
+
+.email-field {
+  width: 600px;
+}
+
 /*------------------------------------*\
   Home part
 \*------------------------------------*/
