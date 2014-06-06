@@ -26,6 +26,7 @@
 .home-part {
   margin-top: 65px;
   padding-top: 70px;
+  padding-bottom: 50px;
   p {
     font-size: 24px;
     line-height: 30px;
@@ -43,7 +44,22 @@
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 50px;
 }
+
+.btn-register-now {
+  float: right;
+}
+
+.disclaimer-info {
+  margin-top: 100px;
+  display: block;
+  color: $awhite;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+}
+
 /*------------------------------------*\
   Who can
 \*------------------------------------*/
