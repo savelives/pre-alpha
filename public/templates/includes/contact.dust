@@ -8,7 +8,7 @@
       <input class="name-field" type="text" id="name" name="name" placeholder="Nome">
       <input class="email-field" type="text" id="email" name="email" placeholder="E-mail">
       <textarea name="message" id="message" placeholder="Digite sua mensagem"></textarea>
-      <button class="btn btn-send-message" type="button">Enviar</button>
+      <button class="btn btn-send-message" type="button"><span>Enviar</span></button>
     </form>
   </div>
 </article>

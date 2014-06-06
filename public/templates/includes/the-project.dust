@@ -6,6 +6,6 @@
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat sem dictum nibh volutpat pulvinar. Vivamus vitae tortor at quam ultricies bibendum. Vestibulum nec ante sed orci vestibulum gravida. Nam facilisis, elit eget mollis aliquam, massa felis vestibulum lorem, sed sagittis erat eros in lorem. Suspendisse arcu justo, pharetra vel posuere sagittis, aliquet vitae quam. In cursus lacus diam.
     </p>
 
-    <button class="btn btn-project" type="button">Conheça mais sobre o projeto</button>
+    <button class="btn btn-project" type="button"><span>Conheça mais sobre o projeto</span></button>
   </div>
 </article>
