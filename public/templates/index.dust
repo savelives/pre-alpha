@@ -7,10 +7,10 @@
   <article class="home-part">
     <div class="wrap">
       <span class="initiative-title">
-        Quem tem iniciativa de doar sangue se transforma em um herói, pois salva vidas.
+        Quem tem iniciativa de doar sangue se transforma em um herói, pois <br><strong>salva vidas</strong>.
       </span>
 
-      <p>Se você tem a iniciativa de ser um doador de sangue ou de contribuir nesta causa, <em>cadastre-se</em> para saber mais.</p>
+      <p>Se você tem a iniciativa de ser um doador de sangue ou de contribuir nesta causa, <br> <strong>cadastre-se</strong> para saber mais.</p>
 
       <section class="register-now">
         <form>

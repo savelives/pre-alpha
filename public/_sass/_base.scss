@@ -25,7 +25,7 @@ body {
   font-family: 'Lato', sans-serif;
   font-size: 1rem;
   font-size: 16px;
-  background: $ablue;
+  background: $awhite;
 }
 
 .wrap {
@@ -47,6 +47,7 @@ ul {
 \*------------------------------------*/
 .main-header {
   position: fixed;
+  background: $ablue;
   top: 0;
   right: 0;
   left: 0;
