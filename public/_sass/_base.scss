@@ -25,7 +25,7 @@ body {
   font-family: 'Lato', sans-serif;
   font-size: 1rem;
   font-size: 16px;
-  background: $awhite;
+  background: $ablue;
 }
 
 .wrap {
@@ -46,15 +46,41 @@ ul {
   Main Header
 \*------------------------------------*/
 .main-header {
-  position: relative;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 65px;
+  border-bottom: 1px solid $awhite;
   a {
     color: $awhite;
   }
 }
 
 .logo {
-  margin: 0;
+  margin: 10px 0 0 0;
 }
 
 .logo-link {
+  font-size: 36px;
+  float: left;
+}
+
+.main-menu {
+  position: relative;
+  float: right;
+  li {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+}
+
+/*------------------------------------*\
+  Main Footer
+\*------------------------------------*/
+.main-footer {
+  background: $awhite;
 }
