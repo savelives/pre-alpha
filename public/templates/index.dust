@@ -14,8 +14,8 @@
 
       <section class="register-now">
         <form>
-          <input type="text" id="name" name="name" placeholder="Nome">
-          <input type="text" id="email" name="email" placeholder="E-mail">
+          <input class="name-field" type="text" id="name" name="name" placeholder="Nome">
+          <input class="email-field" type="text" id="email" name="email" placeholder="E-mail">
           <button class="btn btn-register-now" type="button">Cadastre-se</button>
         </form>
       </section>
