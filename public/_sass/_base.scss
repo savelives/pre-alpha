@@ -93,4 +93,34 @@ button {
 \*------------------------------------*/
 .main-footer {
   background: $awhite;
+  padding: 40px 0;
+}
+
+.supporting-title {
+  color: $ablue;
+}
+
+.supporting-awlka {
+  margin-bottom: 30px;
+}
+
+.logo-awlka {
+  display: block;
+  margin: auto;
+}
+
+.other-infos {
+  float: right;
+}
+
+.other-infos-list {
+  li {
+    display: inline-block;
+    font-size: 12px;
+    a {
+      color: $text-gb;
+      margin-left: 10px;
+      text-decoration: underline;
+    }
+  }
 }
