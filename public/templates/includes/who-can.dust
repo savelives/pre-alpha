@@ -5,7 +5,7 @@
 
       <nav class="can-cant">
         <ul>
-          <li class="who-can-donate"><a href="#">Quem pode doar?</a></li>
+          <li class="who-can-donate tab-current"><a href="#">Quem pode doar?</a></li>
           <li class="who-cant-donate"><a href="#">Quem não pode doar?</a></li>
         </ul>
       </nav>

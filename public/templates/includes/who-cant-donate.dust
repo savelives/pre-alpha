@@ -1,87 +1,63 @@
 <section class="cant-donate" id="quem-nao-pode-doar">
   <ul class="nal not-allowed">
     <li>
-      <a href="#">
-        <div></div>
-        Alimentação
-      </a>
+      <div></div>
+      Alimentação
     </li>
 
     <li>
-      <a href="#">
-        <div></div>
-        Anestesia
-      </a>
+      <div></div>
+      Anestesia
     </li>
 
     <li>
-      <a href="#">
-        <div></div>
-        Bebida
-      </a>
+      <div></div>
+      Bebida
     </li>
 
     <li>
-      <a href="#">
-        <div></div>
-        Cirurgia
-      </a>
+      <div></div>
+      Cirurgia
     </li>
 
     <li>
-      <a href="#">
-        <div></div>
-        Endoscopia
-      </a>
+      <div></div>
+      Endoscopia
     </li>
 
     <li>
-      <a href="#">
-        <div></div>
-        Gravidez
-      </a>
+      <div></div>
+      Gravidez
     </li>
 
     <li>
-      <a href="#">
-        <div></div>
-        Gripe
-      </a>
+      <div></div>
+      Gripe
     </li>
 
     <li>
-      <a href="#">
-        <div></div>
-        Hepatite
-      </a>
+      <div></div>
+      Hepatite
     </li>
 
     <li>
-      <a href="#">
-        <div></div>
-        Medicamento
-      </a>
+      <div></div>
+      Medicamento
     </li>
 
     <li>
-      <a href="#">
-        <div></div>
-        Sexo
-      </a>
+      <div></div>
+      Sexo
     </li>
 
     <li>
-      <a href="#">
-        <div></div>
-        Sono
-      </a>
+      <div></div>
+      Sono
     </li>
 
     <li>
-      <a href="#">
-        <div></div>
-        Tatuagem
-      </a>
+      <div></div>
+      Tatuagem
     </li>
 
   </ul>
