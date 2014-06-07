@@ -141,8 +141,13 @@
 
 .nal {
   text-align: center;
+  @extend .cf;
   li {
     cursor: pointer;
+    width: 170px;
+    float: left;
+    margin: 40px 11px;
+    @extend .cf;
   }
 }
 
@@ -169,6 +174,13 @@
   background-position: -182px -44px;
   width: 45px;
   height: 45px;
+}
+
+.can-donate-info,
+.cant-donate-info {
+  @include font-size(1.6);
+  font-weight: 300;
+  color: $text-gb;
 }
 
 .allowed {
