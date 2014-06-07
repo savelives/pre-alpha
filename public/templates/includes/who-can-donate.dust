@@ -2,35 +2,35 @@
   <ul class="nal allowed">
     <li>
       <span class="symbol-check symbol-check-positive"></span>
-      Alimentação
+      <span class="nal-title can-donate-title">Alimentação</span>
       <div class="can-donate-info">
         <small>Estar alimentado (evitar alimentação gordurosa nas 4 horas que antecedem a doação).</small>
       </div>
     </li>
     <li>
       <span class="symbol-check symbol-check-positive"></span>
-      Documentação
+      <span class="nal-title can-donate-title">Documentação</span>
       <div class="can-donate-info">
         <small>Portar documento original com foto, emitido por órgão oficial.</small>
       </div>
     </li>
     <li>
       <span class="symbol-check symbol-check-positive"></span>
-      Idade
+      <span class="nal-title can-donate-title">Idade</span>
       <div class="can-donate-info">
         <small>Idade entre 16 e 69 anos (jovens de 16 ou 17 anos devem estar acompanhados por um responsável legal). Idade máxima de 60 anos para a primeira doação.</small>
       </div>
     </li>
     <li>
       <span class="symbol-check symbol-check-positive"></span>
-      Peso
+      <span class="nal-title can-donate-title">Peso</span>
       <div class="can-donate-info">
         <small>Peso superior a 50kg.</small>
       </div>
     </li>
     <li>
       <span class="symbol-check symbol-check-positive"></span>
-      Saúde
+      <span class="nal-title can-donate-title">Saúde</span>
       <div class="can-donate-info">
         <small>Boas condições de saúde e qualidade de vida.</small>
       </div>
