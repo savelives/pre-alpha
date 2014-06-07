@@ -136,6 +136,10 @@
   }
 }
 
+.tabs-content {
+  padding-top: 80px;
+}
+
 .nal {
   // width: span(900px);
   // margin: auto;
@@ -157,40 +161,11 @@
 }
 
 .allowed {
-  li {
-    a {
-      &:before {
-        content: "";
-        display: block;
-        background-position: -2px -44px;
-        width: 53px;
-        height: 53px;
-      }
-      &:hover {
-        &:before {
-          // content: "";
-          // display: block;
-          // background-position: -58px -40px;
-          // width: 53px;
-          // height: 53px;
-        }
-      }
-    }
-  }
+
 }
 
 .not-allowed {
-  li {
-    a {
-      &:before {
-        content: "";
-        display: block;
-        background: url('../img/img-sprites.png') no-repeat -182px -44px;
-        width: 53px;
-        height: 53px;
-      }
-    }
-  }
+
 }
 
 .info-women-men {
