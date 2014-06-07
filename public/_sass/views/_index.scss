@@ -43,7 +43,7 @@
 
 .initiative-title {
   color: $agreen;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 .btn-register-now {
@@ -133,6 +133,14 @@
   }
   ul {
     display: inline-block;
+  }
+}
+
+.nal {
+  @include span(100%);
+  li {
+    width: span(5);
+    float: left;
   }
 }
 /*------------------------------------*\

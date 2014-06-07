@@ -1,5 +1,5 @@
-<section class="cant-donate">
-  <ul class="not-allowed">
+<section class="cant-donate" id="quem-nao-pode-doar">
+  <ul class="nal not-allowed">
     <li>
       <a href="#">
         <div></div>
