@@ -137,11 +137,64 @@
 }
 
 .nal {
-  @include span(100%);
+  // width: span(900px);
+  // margin: auto;
+  // @extend .cf;
   li {
-    width: span(5);
+     // @include span(1 of 5);
+    width: 192px;
     float: left;
+    a {
+      text-transform: uppercase;
+      color: $text-gb;
+      &:before {
+        content: "";
+        display: block;
+        background: url('../img/img-sprites.png') no-repeat;
+      }
+    }
   }
+}
+
+.allowed {
+  li {
+    a {
+      &:before {
+        content: "";
+        display: block;
+        background-position: -2px -44px;
+        width: 53px;
+        height: 53px;
+      }
+      &:hover {
+        &:before {
+          // content: "";
+          // display: block;
+          // background-position: -58px -40px;
+          // width: 53px;
+          // height: 53px;
+        }
+      }
+    }
+  }
+}
+
+.not-allowed {
+  li {
+    a {
+      &:before {
+        content: "";
+        display: block;
+        background: url('../img/img-sprites.png') no-repeat -182px -44px;
+        width: 53px;
+        height: 53px;
+      }
+    }
+  }
+}
+
+.info-women-men {
+
 }
 /*------------------------------------*\
   Responsibility
