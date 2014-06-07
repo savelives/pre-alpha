@@ -141,24 +141,36 @@
 }
 
 .nal {
-  // width: span(900px);
-  // margin: auto;
-  // @extend .cf;
-  min-height: 200px;
+  text-align: center;
   li {
-     // @include span(1 of 5);
-    width: 192px;
-    float: left;
-    a {
-      text-transform: uppercase;
-      color: $text-gb;
-      &:before {
-        content: "";
-        display: block;
-        background: url('../img/img-sprites.png') no-repeat;
-      }
-    }
+    cursor: pointer;
   }
+}
+
+.nal-title {
+  font-size: 16px;
+  font-size: 1rem;
+  color: $text-gb;
+  text-transform: uppercase;
+}
+
+.symbol-check {
+  content: "";
+  display: block;
+  margin: 10px auto;
+  background: url('../img/img-sprites.png') no-repeat;
+}
+
+.symbol-check-positive {
+  background-position: -2px -44px;
+  width: 45px;
+  height: 45px;
+}
+
+.symbol-check-negative {
+  background-position: -182px -44px;
+  width: 45px;
+  height: 45px;
 }
 
 .allowed {
