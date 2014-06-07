@@ -18,7 +18,7 @@
 
 .big-title {
   display: block;
-  font-size: 40px;
+  @include font-size(4.0);
   line-height: 60px;
   font-weight: 400;
   text-transform: uppercase;
@@ -33,7 +33,7 @@
   padding-top: 70px;
   padding-bottom: 30px;
   p {
-    font-size: 24px;
+    @include font-size(2.4);
     line-height: 30px;
     font-weight: 300;
     color: $awhite;
@@ -54,7 +54,7 @@
   margin-top: 120px;
   display: block;
   color: $awhite;
-  font-size: 14px;
+  @include font-size(1.4);
   font-weight: 300;
   text-align: center;
 }
@@ -112,8 +112,7 @@
   a {
     color: $agrey;
     display: block;
-    font-size: 22px;
-    font-size: 1.375rem;
+    @include font-size(2.2);
     padding: 0.25em 1.25em;
     white-space: nowrap;
     text-transform: uppercase;
@@ -148,8 +147,7 @@
 }
 
 .nal-title {
-  font-size: 16px;
-  font-size: 1rem;
+  @include font-size(1.6);
   color: $text-gb;
   text-transform: uppercase;
 }
@@ -185,16 +183,14 @@
   padding: 40px 0;
   text-align: center;
   h4 {
-    font-size: 18px;
-    font-size: 1.125rem;
+    @include font-size(1.8);
     text-transform: uppercase;
     color: $aagreen;
     margin-bottom: 10px;
   }
   small {
     color: $text-gb;
-    font-size: 16px;
-    font-size: 1rem;
+    @include font-size(1.6);
     font-weight: 300;
     &:before {
       background: url('../img/img-sprites.png') no-repeat;
@@ -234,7 +230,7 @@
   padding: 50px 0;
   p {
     color: $awhite;
-    font-size: 24px;
+    @include font-size(2.4);
     font-weight: 300;
     line-height: 30px;
   }
@@ -257,7 +253,7 @@
   padding: 40px 0;
   p {
     color: $text-gb;
-    font-size: 24px;
+    @include font-size(2.4);
     font-weight: 300;
     line-height: 30px;
   }
@@ -278,7 +274,7 @@
 .get-in-touch {
   padding: 40px 0;
   p {
-    font-size: 24px;
+    @include font-size(2.4);
     font-weight: 300;
     color: $awhite;
     text-align: center;
