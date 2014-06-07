@@ -194,7 +194,49 @@
 }
 
 .info-women-men {
+  padding: 40px 0;
+  text-align: center;
+  h4 {
+    font-size: 18px;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    color: $aagreen;
+    margin-bottom: 10px;
+  }
+  small {
+    color: $text-gb;
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: 300;
+    &:before {
+      background: url('../img/img-sprites.png') no-repeat;
+      content: "";
+      display: inline-block;
+      margin: -7px 10px 0 0;
+      vertical-align: middle;
+    }
+  }
+}
 
+.info-women {
+  small {
+    &:before {
+      background-position: -73px -4px;
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
+
+.info-men {
+  // display: none;
+  small {
+    &:before {
+      background-position: -133px -2px;
+      width: 24px;
+      height: 24px;
+    }
+  }
 }
 /*------------------------------------*\
   Responsibility
