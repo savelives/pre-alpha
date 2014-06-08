@@ -180,7 +180,9 @@
 .cant-donate-info {
   @include font-size(1.6);
   font-weight: 300;
+  line-height: 20px;
   color: $text-gb;
+  @extend .is-hidden;
 }
 
 .allowed {
