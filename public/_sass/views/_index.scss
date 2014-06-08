@@ -8,11 +8,18 @@
 
 .name-field,
 .email-field {
+  width: 368px;
+  height: 50px;
+}
+
+.contact-name-field,
+.contact-email-field {
   width: 470px;
   height: 50px;
 }
 
-.name-field {
+.name-field,
+.contact-name-field {
   margin-right: 20px;
 }
 
@@ -103,12 +110,17 @@
   margin-bottom: 60px;
 }
 
+.register-now {
+  margin-top: 40px;
+}
+
 .btn-register-now {
   float: right;
+  margin: 0;
 }
 
 .disclaimer-info {
-  margin-top: 120px;
+  margin-top: 80px;
   display: block;
   color: $awhite;
   @include font-size(1.4);

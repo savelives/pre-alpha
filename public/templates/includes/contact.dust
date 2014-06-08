@@ -5,8 +5,8 @@
     <p>Se você tiver alguma dúvida ou sugestão, entre em contato:</p>
 
     <form>
-      <input class="name-field" type="text" id="name" name="name" placeholder="Nome">
-      <input class="email-field" type="text" id="email" name="email" placeholder="E-mail">
+      <input class="contact-name-field" type="text" id="name" name="name" placeholder="Nome">
+      <input class="contact-email-field" type="text" id="email" name="email" placeholder="E-mail">
       <textarea class="message-field" name="message" id="message" placeholder="Digite sua mensagem"></textarea>
       <button class="btn btn-send-message" type="button"><span>Enviar</span></button>
     </form>
