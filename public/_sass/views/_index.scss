@@ -48,11 +48,45 @@
   height: 15px;
 }
 
+.arrow-previous-section {
+  border-bottom: 1px solid $awhite;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  &:before {
+    border-color: rgba(234,234,234,0);
+    border-top-color: #eaeaea;
+    border-width: 25px;
+    left: 50%;
+    margin-left: -25px;
+  }
+  &.arrow-previous-section-b {
+    background: $ablue;
+    &:after {
+      border-color: rgba(40,84,161,0);
+      border-top-color: $ablue;
+      border-width: 24px;
+      left: 50%;
+      margin-left: -24px;
+    }
+    &:before {
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      position: absolute;
+      top: 100%;
+      width: 0;
+    }
+  }
+}
+
 /*------------------------------------*\
   Home part
 \*------------------------------------*/
 .home-part {
-  margin-top: 65px;
+  margin-top: 60px;
   padding-top: 70px;
   padding-bottom: 30px;
   p {
@@ -66,7 +100,7 @@
 
 .initiative-title {
   color: $agreen;
-  margin-bottom: 70px;
+  margin-bottom: 60px;
 }
 
 .btn-register-now {
