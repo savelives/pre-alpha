@@ -25,6 +25,29 @@
   text-align: center;
 }
 
+.arrow-down {
+  margin: 20px auto 0 auto;
+  @include font-size(1.8);
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  cursor: pointer;
+  background: url('../img/img-sprites.png') no-repeat;
+  content: "";
+}
+
+.arrow-down-w {
+  background-position: -165px -7px;
+  width: 25px;
+  height: 15px;
+}
+
+.arrow-down-g {
+  background-position: -198px -6px;
+  width: 25px;
+  height: 15px;
+}
+
 /*------------------------------------*\
   Home part
 \*------------------------------------*/
