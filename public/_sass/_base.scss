@@ -128,6 +128,7 @@ button {
   li {
     display: inline-block;
     @include font-size(1.2);
+    font-weight: 300;
     a {
       color: $text-gb;
       margin-left: 10px;
