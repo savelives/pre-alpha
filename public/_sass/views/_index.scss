@@ -107,6 +107,25 @@
       margin-left: -24px;
     }
   }
+  &.arrow-previous-section-g {
+    background: $aagreen;
+    &:after,
+    &:before {
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      position: absolute;
+      top: 100%;
+      width: 0;
+    }
+    &:after {
+      border-color: rgba(40,84,161,0);
+      border-top-color: $aagreen;
+      border-width: 24px;
+      left: 50%;
+      margin-left: -24px;
+    }
+  }
 }
 
 /*------------------------------------*\
@@ -355,6 +374,7 @@
   The Project
 \*------------------------------------*/
 .the-project {
+  position: relative;
   padding: 40px 0;
   p {
     color: $text-gb;
@@ -377,6 +397,7 @@
   Get in Touch
 \*------------------------------------*/
 .get-in-touch {
+  position: relative;
   padding: 40px 0;
   p {
     @include font-size(2.4);
