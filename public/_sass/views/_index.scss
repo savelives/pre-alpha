@@ -69,6 +69,25 @@
     left: 50%;
     margin-left: -25px;
   }
+  &.arrow-previous-section-w {
+    background: $awhite;
+    &:after,
+    &:before {
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      position: absolute;
+      top: 100%;
+      width: 0;
+    }
+    &:after {
+      border-color: rgba(40,84,161,0);
+      border-top-color: $awhite;
+      border-width: 24px;
+      left: 50%;
+      margin-left: -24px;
+    }
+  }
   &.arrow-previous-section-b {
     background: $ablue;
     &:after,
@@ -311,6 +330,7 @@
   Responsibility
 \*------------------------------------*/
 .responsibility {
+  position: relative;
   background: $aagreen;
   padding: 50px 0;
   p {
