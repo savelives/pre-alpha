@@ -33,6 +33,7 @@
 }
 
 .arrow-down {
+  position: relative;
   margin: 20px auto 0 auto;
   @include font-size(1.8);
   text-align: center;
@@ -142,6 +143,9 @@
     color: $awhite;
     text-align: center;
   }
+  .arrow-down {
+    top: 20px;
+  }
 }
 
 .initiative-title {
@@ -174,6 +178,9 @@
   position: relative;
   background: $awhite;
   padding: 70px 0;
+  .arrow-down {
+    top: 60px;
+  }
 }
 
 .tabs {
@@ -358,6 +365,9 @@
     font-weight: 300;
     line-height: 30px;
   }
+  .arrow-down {
+    top: 40px;
+  }
 }
 
 .responsibility-title {
@@ -382,6 +392,9 @@
     font-weight: 300;
     line-height: 30px;
   }
+  .arrow-down {
+    top: 30px;
+  }
 }
 
 .the-project-title {
@@ -404,6 +417,9 @@
     font-weight: 300;
     color: $awhite;
     text-align: center;
+  }
+  .arrow-down {
+    top: 80px;
   }
 }
 
