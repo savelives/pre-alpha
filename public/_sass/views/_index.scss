@@ -71,13 +71,7 @@
   }
   &.arrow-previous-section-b {
     background: $ablue;
-    &:after {
-      border-color: rgba(40,84,161,0);
-      border-top-color: $ablue;
-      border-width: 24px;
-      left: 50%;
-      margin-left: -24px;
-    }
+    &:after,
     &:before {
       border: solid transparent;
       content: " ";
@@ -85,6 +79,13 @@
       position: absolute;
       top: 100%;
       width: 0;
+    }
+    &:after {
+      border-color: rgba(40,84,161,0);
+      border-top-color: $ablue;
+      border-width: 24px;
+      left: 50%;
+      margin-left: -24px;
     }
   }
 }
