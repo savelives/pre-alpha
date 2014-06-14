@@ -8,7 +8,7 @@
       <h2 class="supporting-title big-title">Apoio</h2>
 
       <div class="supporting-awlka">
-        <a href="#"><img class="logo-awlka" src="./img/awlka.png" alt="Awlka"></a>
+        <a href="http://awlka.com" target="_blank"><img class="logo-awlka" src="./img/awlka.png" alt="Awlka" title="AWLKA"></a>
       </div>
     </section>
 
