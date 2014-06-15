@@ -1,5 +1,6 @@
 'use strict';
 
+
 module.exports = function requirejs(grunt) {
   // Load task
   grunt.loadNpmTasks('grunt-contrib-requirejs');
