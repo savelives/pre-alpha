@@ -1,0 +1,1 @@
+requirejs.config({paths:{}}),require([],function(){var i={initialize:function(){console.log("Running free!!!!!")}};i.initialize()}),define("app",function(){});
