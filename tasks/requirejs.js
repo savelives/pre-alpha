@@ -11,7 +11,7 @@ module.exports = function requirejs(grunt) {
       options: {
         baseUrl: 'public/js',
         dir: '.build/js',
-        optimize: 'uglify',
+        optimize: 'uglify2',
         modules: [
           { name: 'app' }
         ]
