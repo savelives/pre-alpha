@@ -10,6 +10,10 @@ module.exports = function watch(grunt) {
     compass: {
       files: ['./public/_sass/**/*.{scss,sass}'],
       tasks: ['compass']
+    },
+    requirejs: {
+      files: ['./public/**/*.js'],
+      tasks: ['requirejs']
     }
   };
 
