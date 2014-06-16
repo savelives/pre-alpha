@@ -40,7 +40,7 @@
   text-transform: uppercase;
   display: block;
   cursor: pointer;
-  background: url('../img/img-sprites.png') no-repeat;
+  background: url('../../img/img-sprites.png') no-repeat;
   content: "";
 }
 
@@ -278,7 +278,7 @@
   content: "";
   display: block;
   margin: 10px auto;
-  background: url('../img/img-sprites.png') no-repeat;
+  background: url('../../img/img-sprites.png') no-repeat;
 }
 
 .symbol-check-positive {
@@ -325,7 +325,7 @@
     @include font-size(1.6);
     font-weight: 300;
     &:before {
-      background: url('../img/img-sprites.png') no-repeat;
+      background: url('../../img/img-sprites.png') no-repeat;
       content: "";
       display: inline-block;
       margin: -7px 10px 0 0;
