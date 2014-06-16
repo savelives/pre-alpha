@@ -42,5 +42,9 @@
     "css": "sass",
     "js": "requirejs",
     "task": "grunt"
+  },
+  "subdomain": "savelives-pre-alpha",
+  "engines": {
+    "node": "0.10.x"
   }
 }
