@@ -26,6 +26,7 @@
     "dustjs-linkedin": "^2.0.3",
     "normalize-css": "~3.0.1",
     "requirejs": "^2.1.11",
-    "modernizr": "~2.8.2"
+    "modernizr": "~2.8.2",
+    "lodash": "~2.4.1"
   }
 }
