@@ -1,1 +1,17 @@
-requirejs.config({paths:{}}),require([],function(){var i={initialize:function(){console.log("Running free!!!!!")}};i.initialize()}),define("app",function(){});
+'use strict';
+
+requirejs.config({
+  paths: {}
+});
+
+require(['alerter'], function (alerter) {
+
+  // var app = {
+  //   initialize: function () {
+  //     console.log('Running free!!!!!');
+  //   }
+  // };
+
+  // app.initialize();
+
+});

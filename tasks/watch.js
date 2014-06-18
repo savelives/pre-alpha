@@ -12,7 +12,7 @@ module.exports = function watch(grunt) {
       tasks: ['compass']
     },
     requirejs: {
-      files: ['./public/**/*.js'],
+      files: ['./public/js/app.js'],
       tasks: ['requirejs']
     }
   };
