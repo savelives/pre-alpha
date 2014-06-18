@@ -17,9 +17,7 @@
     "dustjs-linkedin": "^2.3.5",
     "adaro": "^0.1.5",
     "localizr": "^0.1.0",
-    "node-sass": "^0.8.6",
-    "grunt-contrib-compass": "^0.8.0",
-    "grunt-contrib-watch": "^0.6.1"
+    "node-sass": "^0.8.6"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
