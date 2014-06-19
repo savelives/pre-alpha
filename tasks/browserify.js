@@ -3,7 +3,7 @@
 module.exports = function browserify(grunt) {
 
   // Load Browserify taks
-  grunt.loadNpmTasks('grunt-contrib-browserify');
+  grunt.loadNpmTasks('grunt-browserify');
 
   return {
     dist: {
