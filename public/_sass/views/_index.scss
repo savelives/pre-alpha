@@ -291,8 +291,7 @@
   height: 45px;
 }
 
-.can-donate-info,
-.cant-donate-info {
+.wc-info {
   @include font-size(1.6);
   font-weight: 300;
   line-height: 20px;
