@@ -50,7 +50,7 @@ var tabs = (function (window) {
     this.tabs.forEach(function (tab, idx) {
       tab.addEventListener('click', function (ev) {
         ev.preventDefault();
-        console.log('Hey');
+        self._show(idx);
       });
     });
   };
@@ -67,7 +67,7 @@ var tabs = (function (window) {
     this.items[this.current].className = 'content-current';
   };
 
-  // window.wcTabs = wcTabs;
+  window.wcTabs = wcTabs;
 
 })(window);
 

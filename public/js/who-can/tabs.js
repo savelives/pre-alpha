@@ -31,7 +31,7 @@ var tabs = (function (window) {
     // Tabs elements
     this.tabs = [].slice.call(this.el.querySelectorAll('nav.can-cant > ul > li'));
     // Content items
-    this.items = [].slice.call(this.el.querySelectorAll('.tabs-content > section'));
+    this.items = [].slice.call(this.el.querySelectorAll('div.tabs-content > section'));
     // Current index
     this.current = -1;
     // Show current content item
