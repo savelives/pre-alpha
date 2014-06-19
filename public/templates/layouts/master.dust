@@ -15,6 +15,6 @@
       {+yield /}
     </main>
   {>"includes/footer" /}
-<script src="build/js/app.min.js"></script>
+<script src="build/js/bundle.js"></script>
 </body>
 </html>
