@@ -9,9 +9,9 @@ module.exports = function (grunt) {
     });
 
     // Register group tasks
-    grunt.registerTask('build', [ 'jshint', 'compass', 'i18n', 'copyto' ]);
+    grunt.registerTask('build', [ 'jshint', 'compass', 'browserify', 'uglify', 'i18n', 'copyto' ]);
 
-    grunt.registerTask('w', ['watch', 'compass']);
+    grunt.registerTask('w', ['watch', 'compass', 'browserify']);
 
     grunt.registerTask('test', [ 'jshint', 'mochacli' ]);
 
