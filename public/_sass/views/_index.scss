@@ -298,6 +298,8 @@
   line-height: 20px;
   color: $text-gb;
   @extend .is-hidden;
+  width: 150px;
+  margin: 5px auto;
 }
 
 .allowed {
