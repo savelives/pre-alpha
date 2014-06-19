@@ -33,6 +33,7 @@ var tabs = (function (window) {
     // Content items
     this.items = [].slice.call(this.el.querySelectorAll('div.tabs-content > section'));
     this.itemsContent = [].slice.call(this.el.querySelectorAll('ul.nal > li'));
+    // this.itemsContentInfo = [].slice.call(this.el.querySelectorAll('.wc-info'));
     // Current index
     this.current = -1;
     // Show current content item
@@ -67,7 +68,8 @@ var tabs = (function (window) {
   wcTabs.prototype._showTabsContent = function (idx) {
     this.itemsContent.forEach(function (itemContent, idx) {
       itemContent.addEventListener('mouseover', function () {
-        alert('AAA');
+        var wcInfo = this.querySelectorAll('.wc-info');
+
       });
     });
   };
