@@ -13,7 +13,7 @@ module.exports = function watch(grunt) {
     },
     browserify: {
       files: ['./public/js/**/*.js'],
-      tasks: ['browserify']
+      tasks: ['browserify', 'uglify']
     }
   };
 
