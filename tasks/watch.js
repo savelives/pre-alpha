@@ -11,9 +11,9 @@ module.exports = function watch(grunt) {
       files: ['./public/_sass/**/*.{scss,sass}'],
       tasks: ['compass']
     },
-    requirejs: {
-      files: ['./public/js/app.js'],
-      tasks: ['requirejs']
+    browserify: {
+      files: ['./public/js/**/*.js'],
+      tasks: ['browserify']
     }
   };
 
