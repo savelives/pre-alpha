@@ -58,7 +58,7 @@ var tabs = (function (window) {
   wcTabs.prototype._show = function (idx) {
     if(this.current >= 0) {
       this.tabs[this.current].className = '';
-      this.items[this.current].className = '';
+      this.items[this.current].className = 'is-hidden';
     }
 
     // Change current
