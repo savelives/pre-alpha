@@ -32,10 +32,12 @@ var tabs = (function (window) {
     this.tabs = [].slice.call(this.el.querySelectorAll('nav.can-cant > ul > li'));
     // Content items
     this.items = [].slice.call(this.el.querySelectorAll('div.tabs-content > section'));
+    this.itemsContent = [].slice.call(this.el.querySelectorAll('ul.nal > li'));
     // Current index
     this.current = -1;
     // Show current content item
     this._show();
+    this._showTabsContent();
     // init events
     this._initEvents();
   };
@@ -60,6 +62,14 @@ var tabs = (function (window) {
     this.current = idx != undefined ? idx : this.options.start >= 0 && this.options.start < this.items.length ? this.options.start : 0;
     this.tabs[this.current].className = 'tab-current';
     this.items[this.current].className = 'content-current';
+  };
+
+  wcTabs.prototype._showTabsContent = function (idx) {
+    this.itemsContent.forEach(function (itemContent, idx) {
+      itemContent.addEventListener('mouseover', function () {
+        alert('AAA');
+      });
+    });
   };
 
   window.wcTabs = wcTabs;
