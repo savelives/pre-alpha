@@ -16,7 +16,8 @@ var info = (function (window, document, undefined) {
 
   info.hoverItems = function () {
     $('.nal li').hover(function () {
-      console.log('Yo!');
+      $(this).find('.nal-title').toggle();
+      $(this).find('.wc-info').toggleClass('is-visible-inline-block');
     });
   };
 
