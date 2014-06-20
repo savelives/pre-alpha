@@ -254,6 +254,10 @@
   padding-top: 80px;
 }
 
+.tab-content-current {
+  @extend .is-visible-block;
+}
+
 .nal {
   text-align: center;
   @extend .cf;

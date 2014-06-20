@@ -1,4 +1,4 @@
-<section class="cant-donate is-hidden" id="quem-nao-pode-doar">
+<section class="cant-donate" data-index="2" id="quem-nao-pode-doar">
   <ul class="nal not-allowed">
     <li>
       <span class="symbol-check symbol-check-negative"></span>
