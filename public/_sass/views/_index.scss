@@ -267,8 +267,10 @@
   li {
     cursor: pointer;
     width: 170px;
+    height: auto;
+    min-height: 180px;
     float: left;
-    margin: 40px 11px;
+    margin: 30px 11px 10px 11px;
     @extend .cf;
   }
 }
@@ -304,7 +306,7 @@
   line-height: 20px;
   color: $text-gb;
   @extend .is-hidden;
-  width: 150px;
+  width: 140px;
   margin: 5px auto;
 }
 
