@@ -9192,9 +9192,37 @@ return jQuery;
 
 },{}],2:[function(require,module,exports){
 var tabs = require('./who-can/tabs');
+var info = require('./who-can/info');
 
 tabs;
-},{"./who-can/tabs":3}],3:[function(require,module,exports){
+info;
+},{"./who-can/info":3,"./who-can/tabs":4}],3:[function(require,module,exports){
+/**
+ * Who can and who can't donate info
+ * @author Lucas <lucas@lucas.ninja>
+ */
+var $ = require('jquery');
+
+var info = (function (window, document, undefined) {
+  'use strict';
+
+  // Info object
+  var info = {};
+
+  info.init = function () {
+    this.hoverItems();
+  };
+
+  info.hoverItems = function () {
+    $('.nal li').hover(function () {
+      console.log('Yo!');
+    });
+  };
+
+  return info.init();
+
+})(window, document);
+},{"jquery":1}],4:[function(require,module,exports){
 /**
  * Tabs system
  * @author Lucas <lucas@lucas.ninja>
