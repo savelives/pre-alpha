@@ -113,18 +113,34 @@ button {
   padding: 40px 0;
 }
 
+.supporting {
+  margin-bottom: 120px;
+}
+
 .supporting-title {
   color: $ablue;
 }
 
-.supporting-awlka {
-  margin-bottom: 70px;
+.supporting-list {
+  text-align: center;
+  li {
+    display: inline-block;
+    margin: 0 20px;
+  }
 }
 
 .logo-awlka {
-  display: block;
-  margin: auto;
   width: 150px;
+}
+
+.logo-digitalocean {
+  width: 136px;
+}
+
+.logo-awlka,
+.logo-digitalocean {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .other-infos {
