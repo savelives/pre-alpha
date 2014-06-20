@@ -252,6 +252,9 @@
 
 .tabs-content {
   padding-top: 80px;
+  section {
+    @extend .is-hidden;
+  }
 }
 
 .tab-content-current {
