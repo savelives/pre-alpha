@@ -19,8 +19,10 @@
     "kraken-js": "^1.0.1",
     "localizr": "^0.1.0",
     "lodash": "^2.4.1",
+    "mysql": "^2.3.2",
     "node-sass": "^0.8.6",
     "nodemailer": "^0.7.0",
+    "sequelize": "^1.7.9",
     "validator": "^3.16.0"
   },
   "devDependencies": {
