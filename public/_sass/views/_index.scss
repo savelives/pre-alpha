@@ -310,15 +310,8 @@
   margin: 5px auto;
 }
 
-.allowed {
-
-}
-
-.not-allowed {
-
-}
-
 .info-women-men {
+  position: relative;
   margin-top: 80px;
   padding: 40px 0;
   text-align: center;
@@ -353,7 +346,6 @@
 }
 
 .info-men {
-  // display: none;
   small {
     &:before {
       background-position: -133px -2px;
@@ -362,6 +354,31 @@
     }
   }
 }
+
+.np-arrows {
+  @extend .cf;
+}
+
+.np-arrow {
+  position: absolute;
+  top: 80px;
+  background: url('../../img/img-sprites.png') no-repeat;
+  width: 9px;
+  height: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.np-arrow-prev {
+  background-position: -10px -5px;
+  left: 40px;
+}
+
+.np-arrow-next {
+  background-position: -27px -5px;
+  right: 40px;
+}
+
 /*------------------------------------*\
   Responsibility
 \*------------------------------------*/
