@@ -9211,12 +9211,19 @@ var info = (function (window, document, undefined) {
 
   info.init = function () {
     this.hoverItems();
+    this.carrouselInfo();
   };
 
   info.hoverItems = function () {
     $('.nal li').hover(function () {
       $(this).find('.nal-title').toggle();
       $(this).find('.wc-info').toggleClass('is-visible-inline-block');
+    });
+  };
+
+  info.carrouselInfo = function () {
+    $('.np-arrow').on('click', function () {
+      $('.wm-info:visible').hide().siblings('.wm-info').show();
     });
   };
 

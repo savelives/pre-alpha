@@ -39,12 +39,17 @@
 
   <div class="info-women-men">
 
-    <div class="info-women">
+    <div class="np-arrows">
+      <span class="np-arrow np-arrow-prev"></span>
+      <span class="np-arrow np-arrow-next"></span>
+    </div>
+
+    <div class="wm-info info-women">
       <h4>Mulheres</h4>
       <small>Podem doar sangue num intervalo mínimo de 3 meses, não ultrapassando 3 doações por ano.</small>
     </div>
 
-    <div class="info-men is-hidden">
+    <div class="wm-info info-men">
       <h4>Homens</h4>
       <small>Podem doar sangue num intervalo mínimo de 2 meses, não ultrapassando 4 doações por ano.</small>
     </div>
