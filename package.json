@@ -20,7 +20,8 @@
     "localizr": "^0.1.0",
     "lodash": "^2.4.1",
     "node-sass": "^0.8.6",
-    "nodemailer": "^0.7.0"
+    "nodemailer": "^0.7.0",
+    "validator": "^3.16.0"
   },
   "devDependencies": {
     "browserify": "^4.1.10",
