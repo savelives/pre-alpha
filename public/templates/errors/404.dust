@@ -1,6 +1,6 @@
 {>"layouts/master" /}
 
 {<yield}
-    <h1>{@pre type="content" key="header"/}</h1>
-    <p>{@pre type="content" key="description"/}</p>
+    <h1>Desculpe</h1>
+    <p>Nada encontrado!</p>
 {/yield}
