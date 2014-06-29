@@ -16,7 +16,7 @@
         <form>
           <input class="name-field" type="text" id="name" name="name" placeholder="Nome">
           <input class="email-field" type="email" id="email" name="email" placeholder="E-mail">
-          <button class="btn btn-register-now" type="button"><span>Cadastre-se</span></button>
+          <button class="btn btn-register-now" type="submit"><span>Cadastre-se</span></button>
         </form>
       </section>
 
