@@ -8,9 +8,9 @@
     <p>Se você tiver alguma dúvida ou sugestão, entre em contato:</p>
 
     <form>
-      <input class="contact-name-field" type="text" id="name" name="name" placeholder="Nome">
-      <input class="contact-email-field" type="email" id="email" name="email" placeholder="E-mail">
-      <textarea class="message-field" name="message" id="message" placeholder="Digite sua mensagem"></textarea>
+      <input class="contact-name-field" type="text" id="name" name="name" placeholder="Nome" required>
+      <input class="contact-email-field" type="email" id="email" name="email" placeholder="E-mail" required>
+      <textarea class="message-field" name="message" id="message" placeholder="Digite sua mensagem" required></textarea>
       <button class="btn btn-send-message" type="submit"><span>Enviar</span></button>
     </form>
 
